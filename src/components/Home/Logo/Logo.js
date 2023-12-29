@@ -16,7 +16,7 @@ const Logo = () => {
           visible: {
             pathLength: 0.2,
             transition: {
-              duration: 10,
+              duration: 6,
             }
           }
         }
@@ -33,7 +33,7 @@ const Logo = () => {
       solidLogoElement.style.transition = 'opacity 4s';
       solidLogoElement.style.opacity = 1;
 
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
