@@ -56,16 +56,16 @@ const Contact = () => {
                     <form ref={refForm} onSubmit={sendEmail}>
                         <ul>
                             <li className='half'>
-                                <input type='text' name='name' placeholder='Name' required></input>
+                                <input type='text' name='user_name' placeholder='Name' required></input>
                             </li>
                             <li className='half'>
-                                <input type='email' name='email' placeholder='Email' required></input>
+                                <input type='email' name='user_email' placeholder='Email' required></input>
                             </li> 
                             <li>
                                 <input placeholder='Subject' type='text' name='subject' required />
                             </li>
                             <li>
-                                <textarea placeholder='message' name='message' required></textarea>
+                                <textarea placeholder='Message' name='message' required></textarea>
                             </li>
                             <li>
                                 <input type='submit' className='flat-button' value='SEND' />
