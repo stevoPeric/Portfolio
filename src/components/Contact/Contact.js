@@ -47,7 +47,10 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                stevo
+                I am eager to explore opportunities within a dynamic and collaborative firm, 
+                particularly those involving ambitious or sizable projects. 
+                If you have any other inquiries or requests, please feel free to reach out to me using the form below.
+                I look forward to the opportunity to contribute and expand my knowledge in a thriving environment.
                 </p>
                 <div className='contact-form'>
                     <form ref={refForm} onSubmit={sendEmail}>
